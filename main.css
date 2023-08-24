@@ -178,7 +178,6 @@ p {
   .highscore-content,
   .details-content {
     min-height: 500px;
-    height: 55vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -194,8 +193,8 @@ p {
   }
 
   .result-bubble {
-    width: 25vh;
-    height: 25vh;
+    width: 23vh;
+    height: 23vh;
   }
 
   .highscore {
