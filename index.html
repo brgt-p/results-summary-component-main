@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <!-- FontAwesome CDN -->
+  <script src="https://kit.fontawesome.com/90423b8fcd.js" crossorigin="anonymous"></script>
+
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+  <div class="content-wrapper">
+    <div class="cards-wrapper">
+      <div class="card">
+        <div class="highscore-content">
+          <h3 class="results-title">Your Result</h3>
+          <div class="result-bubble">
+            <h1 class="highscore">76</h1>
+            <p class="score">of 100</p>
+          </div>
+
+          <h2 class="results-subtitle">Great</h2>
+          <p class="results-text">You scored higher than 65% of the people who have taken these tests.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="details-content">
+          <h3 class="results-summary">Summary</h3>
+
+          <div class="result-row row-one">
+            <p class="results-details-one"><span class="fa-solid fa-bolt"></span> Reaction</p>
+            <p class="results-scored">80<span class="span-score"> / 100</span></p>
+          </div>
+
+          <div class="result-row row-two">
+            <p class="results-details-two"><span class="fa-solid fa-brain"></span> Memory</p>
+            <p class="results-scored">92<span class="span-score"> / 100</span></p>
+          </div>
+
+          <div class="result-row row-three">
+            <p class="results-details-three"><span class="fa-solid fa-comment"></span> Verbal</p>
+            <p class="results-scored">61<span class="span-score"> / 100</span></p>
+          </div>
+
+          <div class="result-row row-four">
+            <p class="results-details-four"><span class="fa-solid fa-eye"></span> Visual</p>
+            <p class="results-scored">72<span class="span-score"> / 100</span></p>
+          </div>
+
+          <a href="#" class="button">Continue</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">brgt-p</a>.
+  </div>
+
+</body>
+
+</html>
