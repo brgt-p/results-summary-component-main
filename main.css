@@ -178,7 +178,7 @@ p {
   .highscore-content,
   .details-content {
     min-height: 500px;
-    height: 70vh;
+    height: 60vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
