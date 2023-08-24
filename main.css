@@ -96,11 +96,10 @@ p {
 .span-score {
   opacity: .65;
   padding-left: .3em;
-
 }
 
-.result-row+.result-row {
-  margin: 1em 0;
+.result-row + .result-row {
+  margin-top: 1em;
 }
 
 .row-one {
@@ -181,7 +180,7 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 1.8em;
+    /* padding: 1.9em; */
   }
 
   .highscore-content {
@@ -193,8 +192,8 @@ p {
   }
 
   .result-bubble {
-    width: 23vh;
-    height: 23vh;
+    width: 22vh;
+    height: 22vh;
   }
 
   .highscore {
@@ -203,11 +202,11 @@ p {
 
   .results-title,
   .results-summary {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
   }
 
   .results-subtitle {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     padding: 1em 0 .5em 0;
   }
 
