@@ -95,7 +95,7 @@ p {
 
 .span-score {
   opacity: .65;
-  padding-left: .4em;
+  padding-left: .3em;
 
 }
 
@@ -181,7 +181,7 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 1.5em;
+    padding: 1.8em;
   }
 
   .highscore-content {
