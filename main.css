@@ -66,8 +66,8 @@ p {
 .result-bubble {
   background-image: linear-gradient(#423aa1, #3f37da, #3c18db);
   border-radius: 50%;
-  width: 20vh;
-  height: 20vh;
+  width: 10em;
+  height: 10em;
   padding: 1.5em;
   margin: 0 auto;
   display: flex;
@@ -191,8 +191,8 @@ p {
   }
 
   .result-bubble {
-    width: 28vh;
-    height: 28vh;
+    width: 13em;
+    height: 13em;
   }
 
   .highscore {
